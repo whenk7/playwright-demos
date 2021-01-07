@@ -25,7 +25,7 @@ const imageFromFile = (filename) =>
   });
 
 (async () => {
-  const browser = await chromium.launch();
+  const browser = await chromium.launch({ headless: false });
   const page = await browser.newPage();
   page.setViewportSize({ ...config.viewport });
 

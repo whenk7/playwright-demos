@@ -2,17 +2,17 @@ const prompts = require('prompts');
 const { fork } = require('child_process');
 
 const choices = [
-  { title: 'Launch Webpage', value: './launchPage.js' },
-  { title: 'Web Page Content', value: './getContent.js' },
-  { title: 'Web page Screnshot', value: './screenshot.js' },
-  { title: 'Access DOM', value: './DOM.js' },
-  { title: 'Create Webpage PDF', value: './generatePDF.js' },
-  { title: 'Webpage Accessibility', value: './accessibility.js' },
-  { title: 'Mobile Emulation', value: './mobile.js' },
-  { title: 'Web Workers list', value: './webworker.js' },
-  { title: 'Frame(s)', value: './frame.js' },
-  { title: 'Color scheme change', value: './dark-mode.js' },
-  { title: 'Download File', value: './download.js' },
+  { title: 'Launch Webpage', value: './Started/launchPage.js' },
+  { title: 'Web Page Content', value: './Started/getContent.js' },
+  { title: 'Web page Screnshot', value: './Started/screenshot.js' },
+  { title: 'Access DOM', value: './Started/DOM.js' },
+  { title: 'Create Webpage PDF', value: '.Started//generatePDF.js' },
+  { title: 'Webpage Accessibility', value: './Started/accessibility.js' },
+  { title: 'Mobile Emulation', value: './Started/mobile.js' },
+  { title: 'Web Workers list', value: './Started/webworker.js' },
+  { title: 'Frame(s)', value: './Started/frame.js' },
+  { title: 'Color scheme change', value: './Started/dark-mode.js' },
+  { title: 'Download File', value: './Started/download.js' },
   {
     title: 'Performance - Page load time(s)',
     value: './performance/pageLoadTime.js',
@@ -65,7 +65,7 @@ async function start() {
     {
       type: 'select',
       name: 'runExample',
-      message: '\n Choose example to run',
+      message: '\n 您想执行哪一个？',
       choices,
     },
   ]);

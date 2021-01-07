@@ -1,4 +1,5 @@
 node_modules
 later-use.js
+.history/
 
 Scraping/items.json

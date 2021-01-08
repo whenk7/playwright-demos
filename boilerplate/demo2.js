@@ -25,9 +25,6 @@ const { chromium } = require('playwright');
     return poem;
   });
   console.log(repos);
-
-  ('第一次提交');
-  ('第三提交');
   // page.on('pageerror', console.log);
   // await browser.close();
 })();

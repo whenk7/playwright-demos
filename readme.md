@@ -19,15 +19,15 @@ If you are new to node.js, first install [node.js](https://nodejs.org/en/) `>= 1
 
 ## Examples
 
-1. [Launch Webpage](./launchPage.js)
-1. [Web Page Content](./getContent.js)
-1. [Web page Screnshot](./screenshot.js)
-1. [Access DOM](./DOM.js)
-1. [Create Webpage PDF](./generatePDF.js)
-1. [Mobile Emulation](./mobile.js)
-1. [Web Workers list](./webworker.js)
-1. [Frame(s)](./frame.js)
-1. [Color scheme change](./dark-mode.js)
+1. [Launch Webpage](./Started/launchPage.js)
+1. [Web Page Content](./Started/getContent.js)
+1. [Web page Screnshot](./Started/screenshot.js)
+1. [Access DOM](./Started/DOM.js)
+1. [Create Webpage PDF](./Started/generatePDF.js)
+1. [Mobile Emulation](./Started/mobile.js)
+1. [Web Workers list](./Started/webworker.js)
+1. [Frame(s)](./Started/frame.js)
+1. [Color scheme change](./Started/dark-mode.js)
 
 1. Accessibility
 
